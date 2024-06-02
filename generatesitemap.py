@@ -408,6 +408,7 @@ def main(
         writeTextSitemap(files, baseUrl, dropExtension)
         pathToSitemap += "sitemap.txt"
 
+    print pathToSitemap
     set_outputs({
         "sitemap-path" : pathToSitemap,
         "url-count" : len(files),
@@ -426,5 +427,3 @@ if __name__ == "__main__" :
         dateOnly = sys.argv[8].lower() == "true",
         excludePaths = set(sys.argv[9].replace(",", " ").split())
     )
-
-    
