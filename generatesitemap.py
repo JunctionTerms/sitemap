@@ -408,7 +408,7 @@ def main(
         writeTextSitemap(files, baseUrl, dropExtension)
         pathToSitemap += "sitemap.txt"
 
-    print pathToSitemap
+    print(pathToSitemap)
     set_outputs({
         "sitemap-path" : pathToSitemap,
         "url-count" : len(files),
