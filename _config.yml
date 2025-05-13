@@ -1,10 +1,10 @@
-id: 67
+id: 77
 user: eq19
-span: span-48
+span: span-58
 title: eQuantum
-baseurl: /maps
-repository: JunctionTerms/maps
-action: MappingSystem/Google-Trends-API/actions/runs/14709774164
+baseurl: /sitemap
+repository: JunctionTerms/sitemap
+action: JunctionTerms/wiki/actions/runs/14993917977
 description: ₠Quantum Project
 
 #debug:
@@ -48,6 +48,6 @@ plugins:
   - jekyll-optional-front-matter
 
 track:
-  spin: [5, 1]
+  spin: [5, 11]
   pinned: [maps, feed, lexer, parser, syntax, grammar, flakes, jsonix, lanyon, wiki, sitemap, wikitemplate]
   organization: [Chetabahana, FeedMapping, GlobalZones, HybridModels, JunctionTerms, KernelPatterns, MappingSystem, NeuralSystem, ObjectModules, VirtualNetworks, WeakNegative, WeakPositive, ZeroWeak]
